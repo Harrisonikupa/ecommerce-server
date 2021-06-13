@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Express server that powers ecommerce app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harrisonikupa/ecommerce-server.git"
+  },
+  "keywords": [
+    "Ecommerce",
+    "server"
+  ],
+  "author": "Harrison Ikupa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harrisonikupa/ecommerce-server/issues"
+  },
+  "homepage": "https://github.com/Harrisonikupa/ecommerce-server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13"
+  }
+}
